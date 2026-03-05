@@ -8,11 +8,12 @@
 
 <body>
     <div class="container">
-        <h2>Welcome to AN6802 Financial Webapp</h2>
-        <p>Please enter your name: </p>
-        <from action="/main" method="post">
-            <input type = "text" name="q">
-            <input type = "submit" value="Enter">
+        <h2>Main</h2>
+        <from action="/ethics" method="post">
+            <input type = "submit" value="Ethical Test">
+        </from>
+        <from action="/" method="post">
+            <input type = "submit" value="Exit">
         </from>
     </div>
 
